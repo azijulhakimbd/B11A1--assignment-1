@@ -8,53 +8,56 @@ body{
 }
 /* Nav style start */
 .nav{
-    width: 1600px;
-    height: 100px;
+   
     background-color: blueviolet;
 }
 /* Nav style End */
 /* Banner style start */
 .banner{
-    display: flex;
-    margin: 20px 160px 4821px 160px;
+    
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 0px;
+    width: 1280px;
+    height: 560px;
     
     
 }
 .banner-container{
-    width: 1280px;
-    height: 560px;
     display: flex;
-    background-color: #C6E4D6;
-    border-radius: 24px;
-    padding: 0px;
-    
-}
-.banner-description{
     width: 622px;
     height: 326px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 117px 598.01px 117px 59.99px;
 }
+/* .banner-description{
+    margin:17px 574px 17px 58px ;
+    
+} */
 .text-2{
     font-weight: 700;
 }
 .btn{
-    margin: 10px;
-    padding: 10px 20px;
+    justify-self: start;
     background-color: #006A50;
     color: white;
     border-radius: 8px;
-    width: 270px;
-    height: 56px;
     border: 0px;
 }
 .img{
+   
     
     width: 474.03px;
-    height: 400px;
-   
+    height: 329.21px;
+    left: 157.37%;
+    right: -157.37%;
+    top: 20%;
+    bottom: -2.3%;
 }
 /* Banner style End */
+/* main style strat */
+.card{
+    margin: 100px 160px;
+}
+.cards{
+    display: flex;
+}
+/* Main style end */
